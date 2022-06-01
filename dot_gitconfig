@@ -1,0 +1,29 @@
+[user]
+	signingkey = BE05ACC91949F34F
+	email = jon@cammisuli.ca
+	name = Jonathan Cammisuli
+[commit]
+	gpgsign = true
+[alias]
+	skip = update-index --skip-worktree
+	unskip = update-index --no-skip-worktree
+[init]
+	defaultBranch = main
+[core]
+	excludesFile = ~/.gitignore_global
+	pager = delta
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	side-by-side = true
+    	navigate = true
+	syntax-theme = GitHub 
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default
+
+
